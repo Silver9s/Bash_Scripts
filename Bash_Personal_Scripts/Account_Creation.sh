@@ -1,5 +1,12 @@
 #!/bin/bash
 
+#
+#This script doesn't create accounts, poor naming. The point of the script is to provide a .CSV of a specific
+#range of accounts for example "I need a list of accounts created with the nomenclature department123@domain.biz" 
+#While this script doesn't create the accounts it speeds up the proccess by spitting out the range of accounts 
+#onto a .CSV file we can then use to run inconjunction with the actual .xml script that creates the accounts.
+#
+
 # Prompt the user for the nomenclature
 echo "What is the nomenclature for the last account that was created for the Location? example123@domain.edu:"
 read nomenclature
